@@ -1,0 +1,30 @@
+CACHE MANIFEST
+# version - 140120-15:41:17
+
+CACHE:
+
+# CSS
+main.CSS
+css-add2home.CSS
+
+# GIFS
+roll.gif
+
+# IMAGES
+d20.png
+d12.png
+d10.png
+d8.png
+d6.png
+d4.png
+
+# HTML FILES
+index.HTML
+
+# JAVASCRIPT - SPECIFIC ORDER
+js-add2home.js
+refresh-cache.js
+main.js
+## Any resources not listed above will require the user to be online.
+NETWORK:
+*
