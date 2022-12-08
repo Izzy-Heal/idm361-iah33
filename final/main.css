@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Uni';
+    src: url('UnifrakturCook-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    }
+#dice {
+    position: relative;
+    margin-top: 20%;
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('forest.png') ;
+    background-size: 100%;
+    border-radius: 2rem;
+}
+body{
+    background-color: rgb(202, 199, 186); }
+
+img{
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif;}
+
+
+.twenty {
+    position: absolute;
+    top: 30%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif;
+}
+
+.twelve{
+    position: absolute;
+    top: 35%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif; 
+}
+.ten{
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif;  
+}
+.eight{
+    position: absolute;
+    top: 35%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif;  
+}
+.six{
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif;  
+}
+.four{
+    position: absolute;
+    top: 40%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Uni', Helvetica, sans-serif; 
+}
+.di{
+display: none;
+}
+#txt{
+    display: none;
+}
+#gif{
+    display: none;
+}
+#buttonzone-1{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    max-width: 330px;
+    margin: auto;
+    justify-content: space-around;
+}
+#buttonzone-2{
+    display: flex;
+    padding-bottom: 2rem;
+    max-width: 330px;
+    margin: auto;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    background-image: url('parchment.jpg');
+    background-size: 150%;
+    color: aliceblue;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Uni', Helvetica, sans-serif; 
+    
+}
+button:active {
+    background-color: rgb(170, 162, 218);
+    border: 5px;
+    border-color: brown;
+  }
+.shake{
+    animation: shake .5s;
+}
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+@media (orientation: landscape) {
+    #num{
+        display: none;
+    }
+    body{
+        background-color: rgb(202, 199, 186); 
+        font-family: 'Uni', Helvetica, sans-serif;}
+    button{
+        display: none;
+    }
+    img {display: none;}
+#txt{
+    display: block;
+    margin: auto;
+    text-align: center;
+}  
+#gif{
+    display: block;
+    margin: auto;
+    max-width: 40%;
+}
+#turn{
+    margin: auto;
+}  
+#dice{
+    margin-top: 2rem;
+}}
