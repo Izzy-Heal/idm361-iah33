@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik_Mono_One/RubikMonoOne-Regular.ttf');
+    font-weight: bold;
+    font-style: normal;
+    }
+#dice {
+    margin-top: 20%;
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(109, 109, 145);
+    border-radius: 2rem;
+}
+img{
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.di{
+display: none;
+}
+#txt{
+    display: none;
+}
+#gif{
+    display: none;
+}
+#buttonzone-1{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    max-width: 330px;
+    margin: auto;
+    justify-content: space-around;
+}
+#buttonzone-2{
+    display: flex;
+    padding-bottom: 2rem;
+    max-width: 330px;
+    margin: auto;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    background-color: rgb(138, 138, 200);
+    color: aliceblue;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    
+}
+button:active {
+    background-color: rgb(170, 162, 218);
+  }
+
+@media (orientation: landscape) {
+    body{
+        background-color: rgb(255, 255, 255); 
+        font-family: 'Rubik', Helvetica, sans-serif;}
+    button{
+        display: none;
+    }
+    img {display: none;}
+#txt{
+    display: block;
+    margin: auto;
+    text-align: center;
+}  
+#gif{
+    display: block;
+    margin: auto;
+    max-width: 40%;
+}
+#turn{
+    margin: auto;
+}  
+#dice{
+    margin-top: 2rem;
+}}
