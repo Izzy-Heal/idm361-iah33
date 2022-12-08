@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(201, 201, 201);
+    color: rgb(49, 49, 49);
+}
+.reg{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+.col{
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+h1,h2{
+    font-family: 'Teko', sans-serif;
+    padding-left: 20%;
+}
+
+p, .aline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 80ch;
+    padding-left: 25%;
+}
+a{
+    color: rgb(27, 121, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 80ch;
+}
+.end{
+    padding-bottom: 2rem;
+}
+img{
+    max-width: 20%;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px;
+}

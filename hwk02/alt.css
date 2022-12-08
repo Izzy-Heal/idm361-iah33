@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(62, 107, 94);
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+img{
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,61 @@
+
+
+.wrapper {
+    width: 320px;
+    margin: 10 auto;
+  }
+  
+  .cont {
+    width: 320px;
+    height: 320px;
+    margin: 10px auto;
+    background: url(moth-portrait.svg);
+  }
+  
+ 
+
+@media only screen and (orientation:portrait) {
+	.body {
+		background-image: url(bg-woods.jpg);
+        background-color: rgb(176, 183, 183);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300%;
+	}
+	.cont {
+		margin: 10px auto;
+		background: url(moth-portrait.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 320px;
+        height: 500px;
+  }
+  .wrapper {
+    width: 320px;
+    margin:auto;
+  }}
+  
+  @media only screen and (orientation:landscape) {
+	body {
+		background-image: url(bg-lake.jpg);
+        background-color: rgb(176, 183, 183);
+        background-repeat: no-repeat;
+        background-size: 150%;
+	}
+	.cont {
+		margin: 10px auto ;
+		background: url(moth-landscape.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 500px;
+        height: 310px;
+          
+	}
+    .wrapper {
+        width: 600px;
+        margin:auto;
+      }
+	
+  }
